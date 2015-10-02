@@ -1,42 +1,12 @@
-table {
-	width: 100%;
-	border-collapse: separate;
-}
-
-td {
-	font-size: 1.3em;
-	max-width: 100px;
-	padding:5px 3px;
-}
-.ricky, .daddy {
+.centre {
+	background-color: lightgrey;
+	display: block;
 	text-align: center;
-	border: 1px solid grey;
-	border-radius: 20px;
+	margin: 5px auto;
 }
-
-.ricky {
-	background-color: lightgreen;
-
+body {
+	background-color: lightgrey
 }
-
-.daddy {
-	background-color: lightblue;
-}
-#typeMessageBox {
-	position: fixed;
-	bottom: 5px;
-	left:23%;
-	right:auto;
-	border: 1px solid grey;
-	width: 53%;
-	height: 75px;
-}
-textarea {
-	float: left;
-	width: 91%;
-	height: 100%;
-}
-button {
-	height: 100%;
-	width: 9%;
+.form-signin-heading {
+	text-align: center;
 }
